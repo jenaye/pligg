@@ -15,7 +15,7 @@ To make this PoC, i just installed the sofware(`https://github.com/Kliqqi-CMS/Kl
 
 <img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/start.png">
 
-Go to `/admin/admin_editor.php` intercept the request and the change path to file.
+Go to `/admin/admin_editor.php` intercept the request and change the path to file.
 
 
 for exemple to get `index.php` of application :
@@ -44,7 +44,7 @@ the_file=..%2Findex.php&open=Open
 ```
 
 
-just click on "show response in browser", and edit the file like you want
+just click on "show response in browser", and edit the file to suit your needs 
 
 <img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/write.png">
 
