@@ -1,6 +1,6 @@
 # pligg
 
-## pligg 2.0.3 - CVE 
+## pligg 2.0.3 - CVE-2020-25287 
 
 * Description : We can acces to anyfile using `the_file` parameter by template editor menu because of no check on extension and then create webshell into existing php file for exemple 
 * Affected version : 2.0.3
